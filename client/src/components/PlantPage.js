@@ -14,7 +14,7 @@ function PlantPage() {
       .then((plantsArray) => {
         setPlants(plantsArray);
       });
-  }, []);
+  },[]);
 
   function handleAddPlant(newPlant) {
     const updatedPlantsArray = [...plants, newPlant];
